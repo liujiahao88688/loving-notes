@@ -31,30 +31,30 @@
     <audio id="myAudio">
         <source src="static/wants_to_see_you.mp3" type="audio/mp3">
     </audio>
-<!--    <script>-->
-<!--        window.onload = function () {-->
-<!--            const audio = document.getElementById('myAudio');-->
-<!--            audio.play();-->
-<!--        };-->
-<!--    </script>-->
-
-    <button id="playButton"><span style="color: chocolate">点击这个！！！！！</span></button>
     <script>
-        const audio = document.getElementById('myAudio');
-        const playButton = document.getElementById('playButton');
-        let isPlaying = false;
-        playButton.addEventListener('click', function () {
-            if (isPlaying) {
-                audio.pause();
-                isPlaying = false;
-                playButton.textContent = "播放";
-            } else {
-                audio.play();
-                isPlaying = true;
-                playButton.textContent = "暂停";
-            }
-        });
+        window.onload = function () {
+            const audio = document.getElementById('myAudio');
+            audio.play();
+        };
     </script>
+
+<!--    <button id="playButton"><span style="color: chocolate">点击这个！！！！！</span></button>-->
+<!--    <script>-->
+<!--        const audio = document.getElementById('myAudio');-->
+<!--        const playButton = document.getElementById('playButton');-->
+<!--        let isPlaying = false;-->
+<!--        playButton.addEventListener('click', function () {-->
+<!--            if (isPlaying) {-->
+<!--                audio.pause();-->
+<!--                isPlaying = false;-->
+<!--                playButton.textContent = "播放";-->
+<!--            } else {-->
+<!--                audio.play();-->
+<!--                isPlaying = true;-->
+<!--                playButton.textContent = "暂停";-->
+<!--            }-->
+<!--        });-->
+<!--    </script>-->
 
 
     <script type=text/javascript src=static/js/manifest.c9f1f49002d0487072ac.js></script>
